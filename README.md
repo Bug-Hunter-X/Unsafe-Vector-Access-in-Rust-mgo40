@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust when accessing the last element of a vector.  The incorrect approach uses indexing with vec.len() - 1, which panics if the vector is empty. The solution shows the correct and safe way to retrieve the last element using the pop() method.
